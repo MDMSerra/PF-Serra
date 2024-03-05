@@ -10,12 +10,12 @@
 }
 
 *{
-    /* margin: 0;
-    padding: 0;
-    box-sizing: border-box; */
     font-family: var(--fuente);
     color: var(--color-letras);
-    border-radius: 0;
+}
+
+.nav-link{
+    font-size: 1.3rem;
 }
 
 .card {
@@ -24,63 +24,25 @@
     margin-bottom: 10px;
 }
 
-/*HEADER*/
-/* header{
-    width: 100%;
-    height: 100px;
+.main__index{
+    width: 100vw;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-.nav__list{
-    float: right;
-    padding: 25px 5px;
-    list-style: none;
+
+.main__education{
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-.nav__item{
-    display: inline-block;
-}
-.nav__link{
-    padding: 25px 20px;
-    text-decoration: none;
-}
-.nav__link:hover{
-    background-color: var(--color-fondo2);
-    color: var(--color-letras);
-}
-.nav__logo{
-    float: left;
-    background-color: var(--color-fondo3);
-    color: var(--color-fondo);
-    font-weight: bold;
-} */
-/*FIN HEADER*/
 
-
-/*MAIN*/
-
-/*PAGINA PRINCIPAL*/
-
-/*FIN PAGINA PRINCIPAL*/
-
-/*PAGINA EDUCACION*/
-
-/*FIN PAGINA EDUCACION*/
-
-/*PAGINA PROJECTS*/
-/*FIN PAGINA PROJECTS*/
-
-/*PAGINA IMPRESIONES*/
-/*FIN PAGINA IMPRESIONES*/
-
-/*PAGINA CONTACTO*/
-/*FIN PAGINA CONTACTO*/
-
-/*FIN MAIN*/
-
-
-/*FOOTER*/
 .footer{
     height: 100px;
-    text-align: center;
     padding: 40px;
-    
+    font-size: 8px;
+    text-align: center;
 }
-/*FIN FOOTER*/
