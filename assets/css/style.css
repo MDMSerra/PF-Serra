@@ -36,6 +36,13 @@
     width: 90vw;
     margin: 0 auto;
 }
+.main__projects{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 .footer{
     height: 100px;
