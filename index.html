@@ -7,23 +7,23 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Serra Maria del Mar</title>
 </head>
-<body>
+<body class="bg-dark">
     <!-- HEADER -->
     <header class=header">
-        <nav class="navbar navbar-expand-lg py-4 px-1 navbar-dark bg-dark ">
-            <div class="container-fluid ">
-                <a class="navbar-brand mb-0 text-light  h1" data-test="nav__logo" href="index.html" >MDMSerra</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-xl py-4 px-3 navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand mb-0 h1" data-test="nav__logo" href="index.html" >MDMSerra</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" data-test="nav__toggle" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
-                        <li class="nav-item" data-test="nav__education"><a  href="assets/pages/education.html" class="nav-link active text-light">Educación</a></li>
-                        <li class="nav-item" data-test="nav__frontend"><a href="assets/pages/frontend.html" class="nav-link active text-light">Proyectos Frontend</a></li>
-                        <li class="nav-item" data-test="nav__backend"><a href="assets/pages/backend.html" class="nav-link active text-light">Proyectos Backend</a></li>
-                        <li class="nav-item" data-test="nav__games"><a href="assets/pages/videogames.html" class="nav-link active text-light">Juegos Desarrollados</a></li>
-                        <li class="nav-item" data-test="nav__art"><a href="assets/pages/prints.html" class="nav-link active text-light ">Arte e Impresiones 3D</a></li>
-                        <li class="nav-item" data-test="nav__contact"><a href="assets/pages/contact.html" class="nav-link active text-light ">Contacto</a></li>
+                    <ul class="navbar-nav ms-auto mt-1 mb-lg-0">
+                        <li class="nav-item" data-test="nav__education"><a  href="assets/pages/education.html" class="nav-link active">Educación</a></li>
+                        <li class="nav-item" data-test="nav__frontend"><a href="assets/pages/frontend.html" class="nav-link active">Proyectos Frontend</a></li>
+                        <li class="nav-item" data-test="nav__backend"><a href="assets/pages/backend.html" class="nav-link active">Proyectos Backend</a></li>
+                        <li class="nav-item" data-test="nav__games"><a href="assets/pages/videogames.html" class="nav-link active">Juegos Desarrollados</a></li>
+                        <li class="nav-item" data-test="nav__art"><a href="assets/pages/prints.html" class="nav-link active">Arte e Impresiones 3D</a></li>
+                        <li class="nav-item" data-test="nav__contact"><a href="assets/pages/contact.html" class="nav-link active">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -32,24 +32,39 @@
 
 
     <!-- MAIN -->
-    <main class="main__index">
-        <section class="main__section container">
-            <h2 class="main__pre__title">Hola! Soy</h2>
-            <h1 class="main__title">Maria del Mar Serra</h1>
-            <h3 class="main__aspirations">Java Developer | QA Automation | 3D Printer Technician</h3>
-        </section>
-
-        <article class="main__article container">
-            <h2 class="main__article__title">Acerca de mi</h2>
-            <p class="main__article__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente odit soluta quidem, perspiciatis eaque laborum! Atque impedit blanditiis laboriosam officia quis maxime hic! Ut cumque quod ducimus officiis suscipit delectus id. Odio quae veritatis minima error illum similique architecto, provident, fugit exercitationem laudantium et tempore, incidunt doloremque? Eos quasi harum facilis nesciunt, distinctio explicabo consectetur tenetur minima eius quae! Nisi, quaerat natus perspiciatis consectetur eaque ratione, ea rem magni laboriosam velit numquam quos. Rerum numquam, laboriosam ab consequatur facilis laborum amet corporis adipisci minus reprehenderit maiores molestiae nihil vitae quam, incidunt soluta labore fugit quidem dignissimos eaque. Dicta, perferendis fugit!</p>
-        </article>
+    <main>
+        <div class="row">
+            <div class="vh-100">
+                <div class="col col-9 col-md-8 col-xxl-6 card bg-dark border-0 rounded-0 align-items-center justify-content: center">
+                    <!-- <div class="mx-auto justify-content-md-center col col-9 col-md-8 col-lg-7 col-xl-8 col-xxl-6 card bg-ligth  border-0 rounded-0"> -->
+                    <div class="card-body">
+                        <h4 class="card-text">Hola! Soy</h3>
+                        <h1 class="card-title">Maria del Mar Serra</h1>
+                        <h4 class="card-text">Java Developer | QA Automation | 3D Printer Technician</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vh-100">
+                <div class="col col-12 col-xl-10 card bg-dark border-0 rounded-0" style="max-width: 70%;">
+                    <div class="card-body">
+                        <h2 class="card-title pb-3">Acerca de mi</h2>
+                        <p class="card-text pb-1 h5">🛠️ Apasionada en impresión 3D, diseño y post procesado de piezas con acabado de alta calidad.</p>
+                        <p class="card-text pb-1 h5">🖥️ Estudiante de programación. En busqueda de completar un perfil orientado a desarrollo de aplicaciones, testing automatizado y desarrollo de videojuegos.</p>
+                        <p class="card-text pb-1 h5">⚡ Tengo mucha creatividad y curiosidad por lo que siempre estoy buscando algo nuevo para aprender o algun nuevo proyecto que desarrollar.</p>
+                        <p class="card-text h5">💬 Puedes preguntarme acerca de Impresión 3D, Armado y mantenimiento de equipos informáticos, diseño de prototipos para robótica educativa. VideoJuegos</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </main>
     <!-- FIN DEL MAIN -->
 
 
     <!-- FOOTER -->
         <div class="footer container">
-            <h6 class="footer__copyright" data-test="footer__copyright">&copy Copyright Maria del Mar Serra - 2024</h6>
+            <h6 class="h6" data-test="footer__copyright">&copy Copyright Maria del Mar Serra - 2024</h6>
         </div>
     <!-- FIN DEL FOOTER -->
 
