@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Maria del Mar Serra's Prints and Art</title>
 </head>
 <body>
-     <!-- HEADER -->
-     <header class="header">
-        <nav class="nav container">
-            <a class="nav__logo nav__link" data-test="nav__logo" href="../../index.html" >MDMSerra</a>
-            <ul class="nav__list">
-                <li class="nav__item" data-test="nav__education"><a href="education.html" class="nav__link">Educación</a></li>
-                <li class="nav__item" data-test="nav__frontend"><a href="frontend.html" class="nav__link">Proyectos Frontend</a></li>
-                <li class="nav__item" data-test="nav__backend"><a href="backend.html" class="nav__link">Proyectos Backend</a></li>
-                <li class="nav__item" data-test="nav__games"><a href="videogames.html" class="nav__link">Juegos Desarrollados</a></li>
-                <li class="nav__item" data-test="nav__art"><a href="prints.html" class="nav__link">Arte e Impresiones 3D</a></li>
-                <li class="nav__item" data-test="nav__contact"><a href="contact.html" class="nav__link">Contacto</a></li>
-            </ul>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg py-4 px-1 navbar-dark bg-dark">
+            <div class="container-fluid ">
+                <a class="navbar-brand mb-0 text-light  h1" data-test="nav__logo" href="../../index.html" >MDMSerra</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
+                        <li class="nav-item" data-test="nav__education"><a href="education.html" class="nav-link active text-light">Educación</a></li>
+                        <li class="nav-item" data-test="nav__frontend"><a href="frontend.html" class="nav-link active text-light">Proyectos Frontend</a></li>
+                        <li class="nav-item" data-test="nav__backend"><a href="backend.html" class="nav-link active text-light">Proyectos Backend</a></li>
+                        <li class="nav-item" data-test="nav__games"><a href="videogames.html" class="nav-link active text-light">Juegos Desarrollados</a></li>
+                        <li class="nav-item" data-test="nav__art"><a href="prints.html" class="nav-link active text-light">Arte e Impresiones 3D</a></li>
+                        <li class="nav-item" data-test="nav__contact"><a href="contact.html" class="nav-link active text-light">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <!-- FIN DEL HEADER -->
@@ -55,5 +63,6 @@
         <h6 class="footer__copyright" data-test="footer__copyright">&copy Copyright Maria del Mar Serra - Enero 2024</h6>
     </div>
 <!-- FIN DEL FOOTER -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
