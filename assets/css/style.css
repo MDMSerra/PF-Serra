@@ -123,6 +123,94 @@ body{
 }
 /* FIN seccion main */
 
+
+
+
+
+
+
+
+
+
+
+
+/*PAGINA IMPRESIONES*/
+.main__prints{
+    width: 100%;
+}
+.section__prints{
+    width: 90%;
+    padding-left:6%;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img__print{
+    width: 30%;
+    background-size: cover;
+    padding: 1% 1% 0;
+}
+/*FIN PAGINA IMPRESIONES*/
+
+/*PAGINA CONTACTO*/
+.main__contact{
+    width: 100%;
+    margin-top: 6rem;
+}
+.contact__title{
+    text-align: center;
+    font-size: 3rem;
+}
+.form__section, .contact__social__media{
+    width: 50%;
+}
+.form__section{
+    float: left;
+}
+.contact__social__media{
+    float: right;
+}
+.form{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.input_padron{
+    display: block;
+    width: 100%;
+    margin: 5px 0 10px ;
+    color: var(--color-fondo2);
+}
+.cv__download__button, .form__submit__button{
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 8px;
+    margin-top: 32px;
+}
+.contact__container{
+    width: 60%;
+    margin-top: 22%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.cv__download__button
+{
+    color: var(--color-fondo2);
+    padding:8px 32px ;
+}
+.media__links{
+    margin-top: 26px;
+}
+.media__link{
+    font-size: 2em;
+    padding: 16px;
+}
+/*FIN PAGINA CONTACTO*/
+
+
+
 /* INICIO footer */
 .footer{
     height: 100px;
