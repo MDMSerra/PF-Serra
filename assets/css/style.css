@@ -20,7 +20,6 @@ body{
 
 /* INICIO Modificaciones a estilos de Bootstrap */
 .navbar{
-    margin: 0;
     padding: 0;
     background-color: var(--color-fondo);
 }
@@ -114,11 +113,17 @@ body{
 }
 /* FIN PAGINA EDUCACION */
 .main__projects{
-    height: 90vh;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+
+.main__frontend .card .row  .contenedor-image{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 /* FIN seccion main */
 
 /*PAGINA IMPRESIONES*/
