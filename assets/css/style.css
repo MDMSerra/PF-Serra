@@ -20,7 +20,6 @@ body{
 
 /* INICIO Modificaciones a estilos de Bootstrap */
 .navbar{
-    height: 100px;
     margin: 0;
     padding: 0;
     background-color: var(--color-fondo);
@@ -113,7 +112,6 @@ body{
     padding-top: 0;
     height: 11.5rem;
 }
-
 /* FIN PAGINA EDUCACION */
 .main__projects{
     height: 90vh;
@@ -122,17 +120,6 @@ body{
     justify-content: space-around;
 }
 /* FIN seccion main */
-
-
-
-
-
-
-
-
-
-
-
 
 /*PAGINA IMPRESIONES*/
 .main__prints{
@@ -208,8 +195,6 @@ body{
     padding: 16px;
 }
 /*FIN PAGINA CONTACTO*/
-
-
 
 /* INICIO footer */
 .footer{
