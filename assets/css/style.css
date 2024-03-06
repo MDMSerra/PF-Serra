@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
 
 :root{
+    --bootstrap-dark:#212529;
     --color-fondo: #0D0D0D;
-    --color-fondo2: #262626;
-    --color-fondo3: #81858C;
+    --color-fondo2: #81858C;
     --color-fondo3: #D9D7D7;
     --color-letras: #F2F2F2;
     --fuente: 'Poppins', sans-serif;
@@ -14,39 +14,120 @@
     color: var(--color-letras);
 }
 
+body{
+    background-color: var(--bootstrap-dark);
+}
+
+/* INICIO Modificaciones a estilos de Bootstrap */
+.navbar{
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-fondo);
+}
+
+.nav__container .navbar-brand{
+    background-color: var(--color-letras);
+    color: var(--color-fondo);
+    font-weight: bold;
+    line-height: 100px;
+    padding: 0 20px;
+}
+
+.nav__container .nav-item .nav-link{
+    height: 100%;
+    line-height: 100px;
+    padding: 0 20px;
+}
+
+.nav__container .navbar-brand:hover{
+    
+    background-color: var(--color-fondo2);
+    color: var(--color-letras);
+}
+
+.nav__container .nav-item .nav-link:hover{
+    background-color: var(--color-fondo2);
+}
 .nav-link{
     font-size: 1.3rem;
 }
 
 .card {
     margin: 0 auto;
-    float: none;
-    margin-bottom: 10px;
+    border-radius: 0;
+    border: 0;
 }
 
+.btn-light{
+    width: 100%;
+    background-color: var(--color-letras);
+    font-weight: bold;
+}
+/* FIN Modificaciones a estilos de Bootstrap */
+
+/* INICIO seccion main */
+.main{
+    width: 100%;
+}
+
+
+/* PAGINA PRINCIPAL */
 .main__index{
-    width: 100vw;
     height: 180vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+}
+/* FIN PAGINA PRINCIPAL */
+
+/* PAGINA EDUCACION */
+.main__education{
+    margin-top: 6rem;
 }
 
-.main__education{
-    width: 90vw;
-    margin: 0 auto;
+.main__education .card{
+    width: 20rem;
+    height: 28rem;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
 }
+
+.main__education .card img{
+    padding: 10%;
+    height: 8.5rem;
+}
+
+.main__education .card .card-title{
+    margin-top: 0;
+    padding-top: 0;
+    height: 2rem;
+}
+
+.main__education .card .card-content{
+    margin-top: 0;
+    padding-top: 0;
+    height: 11.5rem;
+}
+
+/* FIN PAGINA EDUCACION */
 .main__projects{
-    width: 100vw;
     height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+/* FIN seccion main */
 
+/* INICIO footer */
 .footer{
     height: 100px;
     padding: 40px;
     font-size: 8px;
     text-align: center;
 }
+/* FIN footer */

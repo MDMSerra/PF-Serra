@@ -8,19 +8,19 @@
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon">
     <title>Maria del Mar Serra's Education</title>
 </head>
-<body class="bg-dark">
+<body>
     <!-- HEADER -->
     <header class="header">
-        <nav class="navbar navbar-expand-lg py-4 px-3 navbar-dark">
-            <div class="container-fluid ">
-                <a class="navbar-brand mb-0 h1" data-test="nav__logo" href="../../index.html" >MDMSerra</a>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="nav__container container-fluid">
+                <a class="navbar-brand" data-test="nav__logo" href="../../index.html" >MDMSerra</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mt-1 mb-lg-0">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item" data-test="nav__education"><a href="education.html" class="nav-link active">Educación</a></li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown" data-test="nav__dropdown">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Proyectos
                             </a>
@@ -40,185 +40,220 @@
     <!-- FIN DEL HEADER -->
 
     <!-- MAIN -->
-    <main class="main__education">
-
-        <div class="row">
-            <div class="grid#1 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logoCACsinbloque.png" class="card-img-top pt-5 pe-5 ps-2 pb-0" alt="logo de organización educativa codo a codo">
-                <div class="card-body">
-                    <h5 class="card-title">Desarrollo Fullstack - Java </h3>
-                    <h6 class="card-subtitle mb-2">Codo a Codo – Buenos Aires</h4>
-                    <p class="card-text mb-0 pb-0">EN CURSO: [JULIO DE 2024]</p>
-                    <p class="card-text">Duración: 5 meses. HTML, CSS, Bootstrap, JS, Git, SCRUM, MySQL, Vue, Java, Ajax, Spring.</p>  
-                    <a href="https://aulasvirtuales.bue.edu.ar/pluginfile.php/1834481/mod_resource/content/2/Plan%20de%20estudios-%20estudiantes-%20Full%20Stack%20Java%202024.pdf" class="btn btn-light" Target="_blank">Ver plan de estudios</a>  
+    <main>
+        <section class="container main main__education">
+            <div class="row">
+                <div class="grid#1 col-12 card bg-dark">
+                    <img src="../img/education/logo-codo-a-codo.png" class="card-img-top" alt="logo de organización educativa codo a codo">
+                    <div class="card-body">
+                        <h5 class="card-title">Dev. Fullstack - Java </h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">Codo a Codo – Buenos Aires</h6>
+                            <p class="card-text mb-0 pb-0">EN CURSO: [JULIO DE 2024]</p>
+                            <p class="card-text">Duración: 5 meses. HTML, CSS, Bootstrap, JS, Git, SCRUM, MySQL, Vue, Java, Ajax, Spring.</p>  
+                        </div>
+                        <a href="https://aulasvirtuales.bue.edu.ar/pluginfile.php/1834481/mod_resource/content/2/Plan%20de%20estudios-%20estudiantes-%20Full%20Stack%20Java%202024.pdf" class="btn btn-light" Target="_blank">Ver plan de estudios</a>  
+                    </div>
                 </div>
-            </div>
+        
+                <div class="grid#2 col-12 card bg-dark">
+                    <img src="../img/education/logo-codo-a-codo.png" class="card-img-top" alt="logo de organización educativa codo a codo">
+                    <div class="card-body">
+                        <h5 class="card-title">QA + Automation</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">Codo a Codo – Buenos Aires</h6>
+                            <p class="card-text mb-0 pb-0">EN CURSO: [JULIO DE 2024]</p>
+                            <p class="card-text">Duración: 5 meses. Inflectra, SpiraPlan, SpiraCapture, Rapise, Apache JMeter.</p>
+                        </div>
+                        <a href="https://aulasvirtuales.bue.edu.ar/pluginfile.php/1836001/mod_resource/content/2/Plan%20de%20estudios-%20estudiantes-%20Testing%2C%20QA%20y%20Automatizaci%C3%B3n%202024.pdf" class="btn btn-light" Target="_blank">Ver plan de estudios</a>    
+                    </div>
+                </div>
+        
+                <div class="grid#3 col-12 card bg-dark">
+                    <img src="../img/education/logo-coderhouse.png" class="card-img-top" alt="logo de organización educativa CODERHOUSE">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo Frontend</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">CODERHOUSE</h6>
+                                <p class="card-text mb-0 pb-0">EN CURSO: [MARZO DE 2024]</p>
+                                <p class="card-text">3 meses. CSS, HTML, BootStrap, SASS, Git yGitHub.</p>  
+                        </div>
+                        <a href="https://drive.google.com/file/d/11rgiy_85NSh7KrxzkiIc7Ro2H63ZZWaM/view" class="btn btn-light" Target="_blank">Ver plan de estudios</a>
+                    </div>
+                </div>
     
-            <div class="grid#2 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logoCACsinbloque.png" class="card-img-top pt-5 pe-5 ps-2 pb-0s" alt="logo de organización educativa codo a codo">
-                <div class="card-body">
-                    <h5 class="card-title">QA + Automation</h3>
-                    <h6 class="card-subtitle mb-2">Codo a Codo – Buenos Aires</h4>
-                    <p class="card-text mb-0 pb-0">EN CURSO: [JULIO DE 2024]</p>
-                    <p class="card-text">Duración: 5 meses. Inflectra, SpiraPlan, SpiraCapture, Rapise, Apache JMeter.</p>
-                    <a href="https://aulasvirtuales.bue.edu.ar/pluginfile.php/1836001/mod_resource/content/2/Plan%20de%20estudios-%20estudiantes-%20Testing%2C%20QA%20y%20Automatizaci%C3%B3n%202024.pdf" class="btn btn-light" Target="_blank">Ver plan de estudios</a>    
+                <div class="grid#4 col-12 card bg-dark">
+                    <img src="../img/education/logo-brinca.png" class="card-img-top" alt="logo de organización educativa BRINCA">
+                    <div class="card-body">
+                        <h5 class="card-title">Ilustración digital 2D</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">Campus Brinca</h6>
+                            <p class="card-text mb-0 pb-0">EN CURSO: [2024]</p>
+                            <p class="card-text">Diseño e ilustración digital de interfaces de usuario y personajes para videojuegos.</p>    
+                        </div>
+                        <a href="https://campusbrinca.com/arte-2d/" class="btn btn-light" Target="_blank">Ver plan de estudios</a>
+                    </div>
                 </div>
-            </div>
+        
+                <div class="grid#5 col-12 card bg-dark">
+                    <img src="../img/education/logo-brinca.png" class="card-img-top" alt="logo de organización educativa BRINCA">
+                    <div class="card-body">
+                        <h5 class="card-title">Sonido y Musicalización</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">Campus Brinca</h6>
+                                <p class="card-text mb-0 pb-0">EN CURSO: [2024]</p>
+                                <p class="card-text">Diseño de sonido en el desarrollo de videojuegos.</p>
+                        </div>
+                        <a href="https://campusbrinca.com/sonido/" class="btn btn-light" Target="_blank">Ver plan de estudios</a>    
+                    </div>
+                </div>
+        
+                <div class="grid#6 col-12 card bg-dark">
+                    <img src="../img/education/logo-utn.png" class="card-img-top" alt="logo de Univeridad Tecnológica Nacional">
+                    <div class="card-body">
+                        <h5 class="card-title">Ingeniería Electrónica</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">Universidad Tecnológica Nacional</h6>
+                                <p class="card-text mb-0 pb-0">EN CURSO: [2024]</p>
+                                <p class="card-text">Estudiante avanzado de la carrera.</p> 
+                        </div>
+                        <a href="#" class="btn btn-light" Target="_blank">Ver plan de estudios</a>
+                    </div>
+                </div>
     
-            <div class="grid#3 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-coderhouse.png" class="card-img-top pt-5 pe-5 ps-2 pb-0" alt="logo de organización educativa CODERHOUSE">
-                <div class="card-body">
-                    <h5 class="card-title">Desarrollo Frontend</h3>
-                    <h6 class="card-subtitle mb-2">CODERHOUSE Becas con Impacto</h4>
-                    <p class="card-text mb-0 pb-0">EN CURSO: [MARZO DE 2024]</p>
-                    <p class="card-text">3 meses. CSS, HTML, BootStrap, SASS, Git yGitHub.</p>
-                    <a href="https://drive.google.com/file/d/11rgiy_85NSh7KrxzkiIc7Ro2H63ZZWaM/view" class="btn btn-light" Target="_blank">Ver plan de estudios</a>
+                <div class="grid#7 col-12 card bg-dark">
+                    <img src="../img/education/logo-desafio-latam.png" class="card-img-top" alt="logo de organización educativa logo-desafio-latam">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo Frontend</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">Desafío Latam</h6>
+                                <p class="card-text mb-0 pb-0">FINALIZÓ: [FEBRERO DE 2024]</p>
+                                <p class="card-text">Introducción al Desarrollo Web con CSS, HTML, BootStrap, SASS, Git yGitHub.</p>
+                        </div>
+                        <a href="https://cursos.desafiolatam.com/certificates/2g1soyclvi" class="btn btn-light" Target="_blank">Ver certificado</a>    
+                    </div>
                 </div>
-            </div>
-
-            <div class="grid#4 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-brinca.png" class="card-img-top mt-4 pt-5 pe-5 ps-2 pb-0" alt="logo de organización educativa BRINCA">
-                <div class="card-body">
-                    <h5 class="card-title">Ilustración digital 2D</h3>
-                    <h6 class="card-subtitle mb-2">Campus Brinca</h4>
-                    <p class="card-text mb-0 pb-0">EN CURSO: [2024]</p>
-                    <p class="card-text">Diseño e ilustración digital de interfaces de usuario y personajes para videojuegos.</p>    
-                    <a href="https://campusbrinca.com/arte-2d/" class="btn btn-light" Target="_blank">Ver plan de estudios</a>
-                </div>
-            </div>
     
-            <div class="grid#5 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-brinca.png" class="card-img-top pt-5 pe-5 ps-2 pb-0" alt="logo de organización educativa BRINCA">
-                <div class="card-body">
-                    <h5 class="card-title">Sonido y Musicalización</h3>
-                    <h6 class="card-subtitle mb-2">Campus Brinca</h4>
-                    <p class="card-text mb-0 pb-0">EN CURSO: [2024]</p>
-                    <p class="card-text">Diseño de sonido en el desarrollo de videojuegos.</p>
-                    <a href="https://campusbrinca.com/sonido/" class="btn btn-light" Target="_blank">Ver plan de estudios</a>    
+                <div class="grid#7 col-12 card bg-dark">
+                    <img src="../img/education/logo-globant.png" class="card-img-top" alt="logo de Globant University">
+                    <div class="card-body">
+                        <h5 class="card-title">QC + Automation</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">EGG & Globant University</h6>
+                            <p class="card-text mb-0 pb-0">FINALIZÓ: [ENERO DE 2024]</p>
+                            <p class="card-text">Duración: 10 meses. 6 meses de Java, 4 meses de Git/github, Jenkins, Maven, TestNG, Selenium,
+                                        POM, Appium, Gherkin, Cucumber, JS, Cypress, Serenity</p>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1OsNxs9keti1oqtAcG_aF-mzbk0cuzyb0/view?usp=drive_link" class="btn btn-light" Target="_blank">Ver certificado</a>    
+                    </div>
                 </div>
-            </div>
+        
+                <div class="grid#8 col-12 card bg-dark">
+                    <img src="../img/education/logo-domestika.png" class="card-img-top" alt="logo de organización educativa domestika">
+                    <div class="card-body">
+                        <h5 class="card-title">Diseño para impresión 3D</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">DOMESTIKA - Agustín Arroyo</h6>
+                            <p class="card-text mb-0 pb-0">FINALIZÓ: [DICIEMBRE DE 2023]</p>
+                            <p class="card-text"> Introducción al diseño e impresión en 3D, Fusion 360, Cura.</p>
+                        </div>
+                        <a href="https://www.domestika.org/es/certificates/8d6cb13b779d123bdb2c03e530ed5051" class="btn btn-light" Target="_blank">Ver certificado</a>
+                    </div>
+                </div>
+        
+                <div class="grid#9 col-12 card bg-dark">
+                    <img src="../img/education/logo-argentina-programa.png" class="card-img-top" alt="logo de organización educativa Argentina Programa">
+                    <div class="card-body">
+                        <h5 class="card-title">Testing Manual</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">UTN & Argentina Programa</h6>
+                            <p class="card-text mb-0 pb-0">FINALIZÓ: [NOVIEMBRE DE 2023]</p>
+                            <p class="card-text">Duración: 1 mes. TestLink, MantisBT, implementación de pruebas.</p>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1HZGjFwgutIJ6Z2Dw5VOuzHamMUuJqcIP/view?usp=drive_link" class="btn btn-light" Target="_blank">Ver certificado</a> 
+                    </div>
+                </div>
     
-            <div class="grid#6 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-utn.png" class="card-img-top pt-5 pe-5 ps-3 pb-0" alt="logo de Univeridad Tecnológica Nacional">
-                <div class="card-body">
-                    <h5 class="card-title">Ingeniería Electrónica</h3>
-                    <h6 class="card-subtitle mb-2">Universidad Tecnológica Nacional</h4>
-                    <p class="card-text mb-0 pb-0">EN CURSO: [2024]</p>
-                    <p class="card-text">Estudiante avanzado de la carrera.</p>    
+                <div class="grid#10 col-12 card bg-dark">
+                    <img src="../img/education/logo-unrn.png" class="card-img-top" alt="logo de Univeridad Nacional de Rio Negro">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo de Videojuegos</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">Universidad Nacional de Río Negro</h6>
+                            <p class="card-text mb-0 pb-0">FINALIZÓ: [NOVIEMBRE DE 2023]</p>
+                            <p class="card-text">Duración: 2 meses.Construct, C#, Unity, narrativa, diseño de juegos, alcance y desarrollo.</p>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1WR_tH7vXjx7v7Kle87lyLKbb2cBlnKHd/view?usp=drive_link" class="btn btn-light" Target="_blank">Ver certificado</a>
+                    </div>
                 </div>
-            </div>
-
-            <div class="grid#7 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-desafio-latam.png" class="card-img-top pt-5 pe-5 ps-3 pb-0" alt="logo de organización educativa logo-desafio-latam">
-                <div class="card-body">
-                    <h5 class="card-title">Desarrollo Frontend</h3>
-                    <h6 class="card-subtitle mb-2">Desafío Latam</h4>
-                    <p class="card-text mb-0 pb-0">FINALIZÓ: [FEBRERO DE 2024]</p>
-                    <p class="card-text">Introducción al Desarrollo Web con CSS, HTML, BootStrap, SASS, Git yGitHub.</p>
-                    <a href="https://cursos.desafiolatam.com/certificates/2g1soyclvi" class="btn btn-light" Target="_blank">Ver certificado</a>    
+        
+                <div class="grid#11 col-12 card bg-dark">
+                    <img src="../img/education/logo-argentina-programa.png" class="card-img-top" alt="logo de organización educativa Argentina Programa">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo de Videojuegos</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">Fundación Sociedades Digitales</h6>
+                            <p class="card-text mb-0 pb-0">FINALIZÓ: [OCTUBRE DE 2023]</p>
+                            <p class="card-text">Duración: 2 meses. C#, Unity.</p>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1UkHY5F0RcZLWtJwumEiZafpb34Cdx2os/view?usp=drive_link" class="btn btn-light" Target="_blank">Ver certificado</a>
+                    </div>
                 </div>
-            </div>
-
-            <div class="grid#7 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-globant.png" class="card-img-top pt-5 pe-5 ps-3 pb-0" alt="logo de Globant University">
-                <div class="card-body">
-                    <h5 class="card-title">QC + Automation</h3>
-                    <h6 class="card-subtitle mb-2">EGG & Globant University</h4>
-                    <p class="card-text mb-0 pb-0">FINALIZÓ: [ENERO DE 2024]</p>
-                    <p class="card-text">Duración: 10 meses. 6 meses de Java, 4 meses de Git/github, Jenkins, Maven, TestNG, Selenium,
-                            POM, Appium, Gherkin, Cucumber, JS, Cypress, Serenity</p>
-                    <a href="https://drive.google.com/file/d/1OsNxs9keti1oqtAcG_aF-mzbk0cuzyb0/view?usp=drive_link" class="btn btn-light" Target="_blank">Ver certificado</a>    
+        
+                <div class="grid#12 col-12 card bg-dark">
+                    <img src="../img/education/logo-domestika.png" class="card-img-top" alt="logo de organización educativa domestika">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo de Videojuegos</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">DOMESTIKA - Juan Diego Vázquez</h6>
+                            <p class="card-text mb-0 pb-0">FINALIZÓ: [OCTUBRE DE 2023]</p>
+                            <p class="card-text">Introducción a Unity para videojuegos 2D, C#.</p>
+                        </div>
+                        <a href="https://www.domestika.org/es/certificates/56d4e48a3061d9043d8a6e611d15be1b" class="btn btn-light" Target="_blank">Ver certificado</a>
+                    </div>
                 </div>
-            </div>
     
-            <div class="grid#8 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-domestika.png" class="card-img-top pt-5 pe-5 ps-3 pb-0" alt="logo de organización educativa domestika">
-                <div class="card-body">
-                    <h5 class="card-title">Diseño para impresión 3D</h3>
-                    <h6 class="card-subtitle mb-2">DOMESTIKA - Agustín Arroyo</h4>
-                    <p class="card-text mb-0 pb-0">FINALIZÓ: [DICIEMBRE DE 2023]</p>
-                    <p class="card-text"> Introducción al diseño e impresión en 3D, Fusion 360, Cura.</p>
-                    <a href="https://www.domestika.org/es/certificates/8d6cb13b779d123bdb2c03e530ed5051" class="btn btn-light" Target="_blank">Ver certificado</a>
+                <div class="grid#13 col-12 card bg-dark">
+                    <img src="../img/education/logo-domestika.png" class="card-img-top" alt="logo de organización educativa domestika">
+                    <div class="card-body">
+                        <h5 class="card-title">Diseño arte 2D pixel art</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">DOMESTIKA - Daniel Benítez Gómez</h6>
+                            <p class="card-text mb-0 pb-0">FINALIZÓ: [OCTUBRE DE 2023]</p>
+                            <p class="card-text">Introducción al diseño de personajes en pixel art</p>
+                        </div>
+                        <a href="https://www.domestika.org/es/certificates/7b45d4fd1f7aed0e84ea230e318adac7" class="btn btn-light" Target="_blank">Ver certificado</a>
+                    </div>
+                </div>
+        
+                <div class="grid#14 col-12 card bg-dark">
+                    <img src="../img/education/logo-oracle.png" class="card-img-top" alt="logo de organización educativa domestika">
+                    <div class="card-body">
+                        <h5 class="card-title">Backend - Java</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">Oracle Next Education</h6>
+                            <p class="card-text mb-0 pb-0">FINALIZÓ: [OCTUBRE DE 2023]</p>
+                            <p class="card-text">Duración: 6 meses. Java, SQL, Desarrollo Personal y Contenido de Agilidad Empresarial.</p>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1wCEnmiWCw-SwNWhtCcm7aiFN3lTSZL8b/view?usp=drive_link" class="btn btn-light" Target="_blank">Ver certificado</a>
+                    </div>
+                </div>
+        
+                <div class="grid#15 col-12 card bg-dark">
+                    <img src="../img/education/logo-domestika.png" class="card-img-top" alt="logo de organización educativa domestika">
+                    <div class="card-body">
+                        <h5 class="card-title">Modelado 3D</h5>
+                        <div class="card-content">
+                            <h6 class="card-subtitle mb-2">DOMESTIKA - Luis Arizaga</h6>
+                            <p class="card-text mb-0 pb-0">FINALIZÓ: [JUNIO DE 2023]</p>
+                            <p class="card-text">Introducción al diseño y modelado 3D con Blender</p>
+                        </div>
+                        <a href="https://www.domestika.org/es/certificates/66a2e9826a570c2f7578d315519c906f" class="btn btn-light" Target="_blank">Ver certificado</a>
+                    </div>
                 </div>
             </div>
-    
-            <div class="grid#9 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-argentina-programa.png" class="card-img-top pt-5 pe-5 ps-3 pb-0" alt="logo de organización educativa Argentina Programa">
-                <div class="card-body">
-                    <h5 class="card-title">Testing Manual</h3>
-                    <h6 class="card-subtitle mb-2">UTN & Argentina Programa</h4>
-                    <p class="card-text mb-0 pb-0">FINALIZÓ: [NOVIEMBRE DE 2023]</p>
-                    <p class="card-text">Duración: 1 mes. TestLink, MantisBT, implementación de pruebas.</p>
-                    <a href="https://drive.google.com/file/d/1HZGjFwgutIJ6Z2Dw5VOuzHamMUuJqcIP/view?usp=drive_link" class="btn btn-light" Target="_blank">Ver certificado</a> 
-                </div>
-            </div>
-
-            <div class="grid#10 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-unrn-blanco.png" class="card-img-top pt-5 pe-5 ps-3 pb-0" alt="logo de Univeridad Nacional de Rio Negro">
-                <div class="card-body">
-                    <h5 class="card-title">Desarrollo de Videojuegos</h3>
-                    <h6 class="card-subtitle mb-2">Universidad Nacional de Río Negro</h4>
-                    <p class="card-text mb-0 pb-0">FINALIZÓ: [NOVIEMBRE DE 2023]</p>
-                    <p class="card-text">Duración: 2 meses.Construct, C#, Unity, narrativa, diseño de juegos, alcance y desarrollo.</p>
-                    <a href="https://drive.google.com/file/d/1WR_tH7vXjx7v7Kle87lyLKbb2cBlnKHd/view?usp=drive_link" class="btn btn-light" Target="_blank">Ver certificado</a>
-                </div>
-            </div>
-    
-            <div class="grid#11 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-argentina-programa.png" class="card-img-top pt-5 pe-5 ps-3 pb-0" alt="logo de organización educativa Argentina Programa">
-                <div class="card-body">
-                    <h5 class="card-title">Desarrollo de Videojuegos</h3>
-                    <h6 class="card-subtitle mb-2">Fundación Sociedades Digitales</h4>
-                    <p class="card-text mb-0 pb-0">FINALIZÓ: [OCTUBRE DE 2023]</p>
-                    <p class="card-text">Duración: 2 meses. C#, Unity.</p>
-                    <a href="https://drive.google.com/file/d/1UkHY5F0RcZLWtJwumEiZafpb34Cdx2os/view?usp=drive_link" class="btn btn-light" Target="_blank">Ver certificado</a>
-                </div>
-            </div>
-    
-            <div class="grid#12 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-domestika.png" class="card-img-top pt-5 pe-5 ps-3 pb-0" alt="logo de organización educativa domestika">
-                <div class="card-body">
-                    <h5 class="card-title">Desarrollo de Videojuegos</h3>
-                    <h6 class="card-subtitle mb-2">DOMESTIKA - Juan Diego Vázquez</h4>
-                    <p class="card-text mb-0 pb-0">FINALIZÓ: [OCTUBRE DE 2023]</p>
-                    <p class="card-text">Introducción a Unity para videojuegos 2D, C#.</p>
-                    <a href="https://www.domestika.org/es/certificates/56d4e48a3061d9043d8a6e611d15be1b" class="btn btn-light" Target="_blank">Ver certificado</a>
-                </div>
-            </div>
-
-            <div class="grid#13 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-domestika.png" class="card-img-top pt-5 pe-5 ps-3 pb-0" alt="logo de organización educativa domestika">
-                <div class="card-body">
-                    <h5 class="card-title">Diseño arte 2D pixel art</h3>
-                    <h6 class="card-subtitle mb-2">DOMESTIKA - Daniel Benítez Gómez</h4>
-                    <p class="card-text mb-0 pb-0">FINALIZÓ: [OCTUBRE DE 2023]</p>
-                    <p class="card-text">Introducción al diseño de personajes en pixel art</p>
-                    <a href="https://www.domestika.org/es/certificates/7b45d4fd1f7aed0e84ea230e318adac7" class="btn btn-light" Target="_blank">Ver certificado</a>
-                </div>
-            </div>
-    
-            <div class="grid#14 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-one.png" class="card-img-top pt-5 pe-5 ps-3 pb-0" alt="logo de organización educativa domestika">
-                <div class="card-body">
-                    <h5 class="card-title">Backend - Java</h3>
-                    <h6 class="card-subtitle mb-2">Oracle Next Education</h4>
-                    <p class="card-text mb-0 pb-0">FINALIZÓ: [OCTUBRE DE 2023]</p>
-                    <p class="card-text">Duración: 6 meses. Java, SQL, Desarrollo Personal y Contenido de Agilidad Empresarial.</p>
-                    <a href="https://drive.google.com/file/d/1wCEnmiWCw-SwNWhtCcm7aiFN3lTSZL8b/view?usp=drive_link" class="btn btn-light" Target="_blank">Ver certificado</a>
-                </div>
-            </div>
-    
-            <div class="grid#15 col-12 card bg-dark border-0 rounded-0" style="width: 20rem;">
-                <img src="../img/education/logo-domestika.png" class="card-img-top pt-5 pe-5 ps-3 pb-0" alt="logo de organización educativa domestika">
-                <div class="card-body">
-                    <h5 class="card-title">Modelado 3D</h3>
-                    <h6 class="card-subtitle mb-2">DOMESTIKA - Luis Arizaga</h4>
-                    <p class="card-text mb-0 pb-0">FINALIZÓ: [JUNIO DE 2023]</p>
-                    <p class="card-text">Introducción al diseño y modelado 3D con Blender</p>
-                    <a href="https://www.domestika.org/es/certificates/66a2e9826a570c2f7578d315519c906f" class="btn btn-light" Target="_blank">Ver certificado</a>
-                </div>
-            </div>
-        </div>
+        </section>
+        
         
     </main>
     <!-- FIN DEL MAIN -->

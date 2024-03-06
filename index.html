@@ -8,19 +8,19 @@
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon">
     <title>Serra Maria del Mar</title>
 </head>
-<body class="bg-dark">
+<body>
     <!-- HEADER -->
-    <header class=header">
-        <nav class="navbar navbar-expand-lg py-4 px-3 navbar-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand mb-0 h1" data-test="nav__logo" href="index.html" >MDMSerra</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="nav__container container-fluid">
+                <a class="navbar-brand" data-test="nav__logo" href="index.html" >MDMSerra</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" data-test="nav__toggle" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mt-1 mb-lg-0">
                         <li class="nav-item" data-test="nav__education"><a  href="assets/pages/education.html" class="nav-link active">Educación</a></li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown" data-test="nav__dropdown">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Proyectos
                             </a>
@@ -41,25 +41,28 @@
 
     <!-- MAIN -->
     <main>
-        <div class="row main__index">
-            <div class="col col-9 col-md-8 col-xxl-6 card bg-dark border-0 rounded-0">
-                <div class="card-body">
-                    <h4 class="card-text">Hola! Soy</h3>
-                    <h1 class="card-title">Maria del Mar Serra</h1>
-                    <h4 class="card-text">Java Developer | QA Automation | 3D Printer Technician</h3>
+        <section class="container main main__index">
+            <div class="row">
+                <div class="col col-9 col-md-8 col-xxl-12 card bg-dark">
+                    <div class="card-body">
+                        <h4 class="card-text">Hola! Soy</h3>
+                        <h1 class="card-title">Maria del Mar Serra</h1>
+                        <h4 class="card-text">Java Developer | QA Automation | 3D Printer Technician</h3>
+                    </div>
                 </div>
             </div>
-
-            <div class="col col-11 col-xl-9 card bg-dark border-0 rounded-0">
-                <div class="card-body">
-                    <h2 class="card-title pb-3">Acerca de mi</h2>
-                    <p class="card-text pb-1 h5">🛠️ Apasionada en impresión 3D, diseño y post procesado de piezas con acabado de alta calidad.</p>
-                    <p class="card-text pb-1 h5">🖥️ Estudiante de programación. En busqueda de completar un perfil orientado a desarrollo de aplicaciones, testing automatizado y desarrollo de videojuegos.</p>
-                    <p class="card-text pb-1 h5">⚡ Tengo mucha creatividad y curiosidad por lo que siempre estoy buscando algo nuevo para aprender o algun nuevo proyecto que desarrollar.</p>
-                    <p class="card-text h5">💬 Puedes preguntarme acerca de Impresión 3D, Armado y mantenimiento de equipos informáticos, diseño de prototipos para robótica educativa. VideoJuegos</p>
+            <div class="row">
+                <div class="col col-11 col-xl-9 card bg-dark">
+                    <div class="card-body">
+                        <h2 class="card-title pb-3">Acerca de mi</h2>
+                        <p class="card-text pb-1 h5">🛠️ Apasionada en impresión 3D, diseño y post procesado de piezas con acabado de alta calidad.</p>
+                        <p class="card-text pb-1 h5">🖥️ Estudiante de programación. En busqueda de completar un perfil orientado a desarrollo de aplicaciones, testing automatizado y desarrollo de videojuegos.</p>
+                        <p class="card-text pb-1 h5">⚡ Tengo mucha creatividad y curiosidad por lo que siempre estoy buscando algo nuevo para aprender o algun nuevo proyecto que desarrollar.</p>
+                        <p class="card-text h5">💬 Puedes preguntarme acerca de Impresión 3D, Armado y mantenimiento de equipos informáticos, diseño de prototipos para robótica educativa. VideoJuegos</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     <!-- FIN DEL MAIN -->
 
