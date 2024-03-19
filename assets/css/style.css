@@ -1,212 +1,173 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
-
-:root{
-    --bootstrap-dark:#212529;
-    --color-fondo: #0D0D0D;
-    --color-fondo2: #81858C;
-    --color-fondo3: #D9D7D7;
-    --color-letras: #F2F2F2;
-    --fuente: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap");
+:root {
+  --bootstrap-dark:#212529;
+  --color-fondo: #0D0D0D;
+  --color-fondo2: #81858C;
+  --color-fondo3: #D9D7D7;
+  --color-letras: #F2F2F2;
+  --fuente: "Poppins", sans-serif;
 }
 
-*{
-    font-family: var(--fuente);
-    color: var(--color-letras);
+* {
+  font-family: var(--fuente);
+  color: var(--color-letras);
 }
 
-body{
-    background-color: var(--bootstrap-dark);
+body {
+  background-color: var(--bootstrap-dark);
 }
 
-/* INICIO Modificaciones a estilos de Bootstrap */
-.navbar{
-    padding: 0;
-    background-color: var(--color-fondo);
+.navbar {
+  padding: 0;
+  background-color: var(--color-fondo);
+}
+.navbar .nav__container .navbar-brand {
+  background-color: var(--color-letras);
+  color: var(--color-fondo);
+  font-weight: bold;
+  line-height: 100px;
+  padding: 0 20px;
+}
+.navbar .nav__container .navbar-brand:hover {
+  background-color: var(--color-fondo2);
+  color: var(--color-letras);
+}
+.navbar .nav__container .nav-item .nav-link {
+  height: 100%;
+  line-height: 100px;
+  padding: 0 20px;
+  font-size: 1.3rem;
+}
+.navbar .nav__container .nav-item .nav-link:hover {
+  background-color: var(--color-fondo2);
 }
 
-.nav__container .navbar-brand{
-    background-color: var(--color-letras);
-    color: var(--color-fondo);
-    font-weight: bold;
-    line-height: 100px;
-    padding: 0 20px;
+main {
+  width: 100%;
+}
+main .card {
+  margin: 0 auto;
+  border-radius: 0;
+  border: 0;
+}
+main .btn-light {
+  width: 100%;
+  background-color: var(--color-letras);
+  font-weight: bold;
+}
+main .main__index {
+  height: 180vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+main .main__education {
+  margin-top: 6rem;
+}
+main .main__education .card {
+  width: 20rem;
+  height: 28rem;
+  margin-bottom: 15px;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+main .main__education .card img {
+  padding: 10%;
+  height: 8.5rem;
+}
+main .main__education .card .card-content {
+  height: 11.5rem;
+}
+main .main__education .card .card-title {
+  height: 2rem;
+}
+main .main__projects {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .main__projects .card {
+  max-width: 85%;
+}
+main .main__projects .card .row .contenedor-image {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+main .main__prints {
+  width: 90%;
+  padding-left: 6%;
+  padding-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .main__prints .print__img__container .img__print {
+  width: 30%;
+  background-size: cover;
+  padding: 1% 1% 0;
+}
+main .main__contact {
+  margin-top: 6rem;
+}
+main .main__contact .contact__title {
+  text-align: center;
+  font-size: 3rem;
+}
+main .main__contact .form__section {
+  width: 50%;
+  float: left;
+}
+main .main__contact .form__section .form {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+main .main__contact .form__section .form .input_padron {
+  display: block;
+  width: 100%;
+  margin: 5px 0 10px;
+  color: var(--color-fondo2);
+}
+main .main__contact .contact__media__section {
+  width: 50%;
+  float: right;
+}
+main .main__contact .contact__media__section .contact {
+  width: 60%;
+  margin: 22% auto auto auto;
+  text-align: center;
+}
+main .main__contact .contact__media__section .contact .media__links {
+  margin-top: 26px;
+}
+main .main__contact .contact__media__section .contact .media__links .media__link {
+  font-size: 2em;
+  padding: 16px;
+}
+main .main__contact .contact__media__section .contact .contact__button {
+  color: var(--color-fondo2);
+  padding: 8px 32px;
+}
+main .main__contact .contact__button {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 8px;
+  margin-top: 32px;
+}
+main .main__contact .contact__button:hover {
+  background-color: var(--color-fondo);
+  color: var(--color-letras);
 }
 
-.nav__container .nav-item .nav-link{
-    height: 100%;
-    line-height: 100px;
-    padding: 0 20px;
+.footer {
+  height: 100px;
+  padding: 40px;
+  font-size: 8px;
+  text-align: center;
 }
 
-.nav__container .navbar-brand:hover{
-    
-    background-color: var(--color-fondo2);
-    color: var(--color-letras);
-}
-
-.nav__container .nav-item .nav-link:hover{
-    background-color: var(--color-fondo2);
-}
-.nav-link{
-    font-size: 1.3rem;
-}
-
-.card {
-    margin: 0 auto;
-    border-radius: 0;
-    border: 0;
-}
-
-.btn-light{
-    width: 100%;
-    background-color: var(--color-letras);
-    font-weight: bold;
-}
-/* FIN Modificaciones a estilos de Bootstrap */
-
-/* INICIO seccion main */
-.main{
-    width: 100%;
-}
-
-
-/* PAGINA PRINCIPAL */
-.main__index{
-    height: 180vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-/* FIN PAGINA PRINCIPAL */
-
-/* PAGINA EDUCACION */
-.main__education{
-    margin-top: 6rem;
-}
-
-.main__education .card{
-    width: 20rem;
-    height: 28rem;
-    margin-bottom: 15px;
-    display: flex;
-    flex-direction: column;
-    
-    justify-content: space-evenly;
-}
-
-.main__education .card img{
-    padding: 10%;
-    height: 8.5rem;
-}
-
-.main__education .card .card-title{
-    margin-top: 0;
-    padding-top: 0;
-    height: 2rem;
-}
-
-.main__education .card .card-content{
-    margin-top: 0;
-    padding-top: 0;
-    height: 11.5rem;
-}
-/* FIN PAGINA EDUCACION */
-.main__projects{
-    min-height: 95vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.main__frontend .card .row  .contenedor-image{
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-/* FIN seccion main */
-
-/*PAGINA IMPRESIONES*/
-.main__prints{
-    width: 100%;
-}
-.section__prints{
-    width: 90%;
-    padding-left:6%;
-    padding-top: 3%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.img__print{
-    width: 30%;
-    background-size: cover;
-    padding: 1% 1% 0;
-}
-/*FIN PAGINA IMPRESIONES*/
-
-/*PAGINA CONTACTO*/
-.main__contact{
-    width: 100%;
-    margin-top: 6rem;
-}
-.contact__title{
-    text-align: center;
-    font-size: 3rem;
-}
-.form__section, .contact__social__media{
-    width: 50%;
-}
-.form__section{
-    float: left;
-}
-.contact__social__media{
-    float: right;
-}
-.form{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-}
-.input_padron{
-    display: block;
-    width: 100%;
-    margin: 5px 0 10px ;
-    color: var(--color-fondo2);
-}
-.cv__download__button, .form__submit__button{
-    font-weight: bold;
-    font-size: 1.2em;
-    padding: 8px;
-    margin-top: 32px;
-}
-.contact__container{
-    width: 60%;
-    margin-top: 22%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-.cv__download__button
-{
-    color: var(--color-fondo2);
-    padding:8px 32px ;
-}
-.media__links{
-    margin-top: 26px;
-}
-.media__link{
-    font-size: 2em;
-    padding: 16px;
-}
-/*FIN PAGINA CONTACTO*/
-
-/* INICIO footer */
-.footer{
-    height: 100px;
-    padding: 40px;
-    font-size: 8px;
-    text-align: center;
-}
-/* FIN footer */
+/*# sourceMappingURL=style.css.map */

@@ -41,39 +41,40 @@
     <!-- FIN DEL HEADER -->
 
     <!-- MAIN -->
-    <main class="main__contact container">
-        <h1 class="contact__title">Conectemos!</h1>
-        <section class="form__section">  
-            <form class="form">            
+    <main>
+        <div class="main__contact container">
+            <h1 class="contact__title">Conectemos!</h1>
+            <section class="form__section">  
+                <form class="form">           
+                    <label for="form___name">Ingresa tu nombre y apellido</label>
+                    <input type="text" id="form___name" class="input_padron" data-test="form___name" required placeholder="Nombre y apellido">
+                <form>
+                    <label for="form___email">Ingresa tu correo electrónico</label>
+                    <input type="email" id="form___email" class="input_padron" data-test="form___email" 
+                                required placeholder="email@dominio.com">
+
+                    <label for="form___asunto">Ingresa el asunto</label>
+                    <input type="text" id="form___asunto" class="input_padron" data-test="form___asunto" required placeholder="asunto">
+
+                    <label for="nav__message">Ingresa tu mensaje</label>
+                    <textarea cols="70" rows="10" id="nav__message" class="input_padron" data-test="nav__message" placeholder="Mensaje"></textarea>
+
+                    <input type="submit" value="Enviar" class="contact__button input_padron" data-test="form__submit__button">
+                </form>
+            </section>
             
-            <label for="form___name">Ingresa tu nombre y apellido</label>
-            <input type="text" id="form___name" class="input_padron" data-test="form___name" required placeholder="Nombre y apellido">
-                        
-            <label for="form___email">Ingresa tu correo electrónico</label>
-            <input type="email" id="form___email" class="input_padron" data-test="form___email" 
-                        required placeholder="email@dominio.com">
-
-            <label for="form___asunto">Ingresa el asunto</label>
-            <input type="text" id="form___asunto" class="input_padron" data-test="form___asunto" required placeholder="asunto">
-
-            <label for="nav__message">Ingresa tu mensaje</label>
-            <textarea cols="70" rows="10" id="nav__message" class="input_padron" data-test="nav__message" placeholder="Mensaje"></textarea>
-
-            <input type="submit" value="Enviar" class="form__submit__button input_padron" data-test="form__submit__button">
-        </form>
-        </section>
-        
-        <aside class="contact__social__media">
-            <div class="contact__container">
-                <h2 class="media__title">Mis redes</h2>
-                <div class="media__links">
-                    <a href="https://www.linkedin.com/" class="media__link"  data-test="media__link__linkedin"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/" class="media__link"  data-test="media__link__github"><i class="fa-brands fa-square-github"></i></a>
-                    <a href="https://discord.com/" class="media__link"  data-test="media__link__discord"><i class="fa-brands fa-discord"></i></a>
+            <aside class="contact__media__section">
+                <div class="contact">
+                    <h2 class="media__title">Mis redes</h2>
+                    <div class="media__links">
+                        <a href="https://www.linkedin.com/" class="media__link"  data-test="media__link__linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/" class="media__link"  data-test="media__link__github"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://discord.com/" class="media__link"  data-test="media__link__discord"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <input type="submit" value="Descarga mi CV" class="contact__button" data-test="cv__download__button">    
                 </div>
-                <input type="submit" value="Descarga mi CV" class="cv__download__button" data-test="cv__download__button">    
-            </div>
-        </aside>
+            </aside>
+        </div>
     </main>
     <!-- FIN DEL MAIN -->
 
