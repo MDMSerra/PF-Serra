@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Página de formulario de contacto, descarga de cv y acceso a redes sociales">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon">
@@ -42,37 +43,42 @@
 
     <!-- MAIN -->
     <main>
-        <div class="main__contact container">
+        <div class="main__contact ">
             <h1 class="contact__title">Conectemos!</h1>
-            <section class="form__section">  
-                <form class="form">           
+
+            <section class="contact__form__section">  
+                <form action="https://formsubmit.co/mserra1092.2@gmail.com" method="POST">      
+                    <!-- nombre -->
                     <label for="form___name">Ingresa tu nombre y apellido</label>
-                    <input type="text" id="form___name" class="input_padron" data-test="form___name" required placeholder="Nombre y apellido">
-                <form>
+                    <input type="text" id="form___name" name="nombre" class="input_padron" data-test="form___name" required placeholder="Nombre y apellido">
+                    <!-- email -->
                     <label for="form___email">Ingresa tu correo electrónico</label>
-                    <input type="email" id="form___email" class="input_padron" data-test="form___email" 
+                    <input type="email" id="form___email" name="correo" class="input_padron" data-test="form___email" 
                                 required placeholder="email@dominio.com">
-
-                    <label for="form___asunto">Ingresa el asunto</label>
-                    <input type="text" id="form___asunto" class="input_padron" data-test="form___asunto" required placeholder="asunto">
-
+                    <!-- asunto -->
+                    <label for="form___asunto">Selecciona el asunto</label>
+                    <select type="text" id="form___asunto" name="asunto" class="input_padron" data-test="form___asunto" required placeholder="Asunto">
+                        <option >Saludos</option>
+                        <option >Pregunta</option>
+                        <option >Propuesta</option>
+                        <option >Queja/Reclamo</option>
+                    </select>
+                    <!-- mensaje -->
                     <label for="nav__message">Ingresa tu mensaje</label>
-                    <textarea cols="70" rows="10" id="nav__message" class="input_padron" data-test="nav__message" placeholder="Mensaje"></textarea>
-
+                    <textarea cols="70" rows="10" id="nav__message" name="mensaje" class="input_padron" data-test="nav__message" placeholder="Mensaje"></textarea>
+                    <!-- boton enviar -->
                     <input type="submit" value="Enviar" class="contact__button input_padron" data-test="form__submit__button">
                 </form>
             </section>
             
             <aside class="contact__media__section">
-                <div class="contact">
-                    <h2 class="media__title">Mis redes</h2>
-                    <div class="media__links">
-                        <a href="https://www.linkedin.com/" class="media__link"  data-test="media__link__linkedin"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/" class="media__link"  data-test="media__link__github"><i class="fa-brands fa-square-github"></i></a>
-                        <a href="https://discord.com/" class="media__link"  data-test="media__link__discord"><i class="fa-brands fa-discord"></i></a>
-                    </div>
-                    <input type="submit" value="Descarga mi CV" class="contact__button" data-test="cv__download__button">    
+                <h2 class="media__title">Mis redes</h2>
+                <div class="media__links">
+                    <a href="https://www.linkedin.com/" class="media__link"  data-test="media__link__linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/" class="media__link"  data-test="media__link__github"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://discord.com/" class="media__link"  data-test="media__link__discord"><i class="fa-brands fa-discord"></i></a>
                 </div>
+                <a href="#" class="contact__button" data-test="cv__download__button">Descarga mi CV</a>
             </aside>
         </div>
     </main>
