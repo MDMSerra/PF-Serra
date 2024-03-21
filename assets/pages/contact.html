@@ -45,41 +45,42 @@
     <main>
         <div class="main__contact ">
             <h1 class="contact__title">Conectemos!</h1>
-
-            <section class="contact__form__section">  
-                <form action="https://formsubmit.co/6e5ffd5b68862b826c31abde000b15fa" method="POST">      
-                    <!-- nombre -->
-                    <label for="form___name">Ingresa tu nombre y apellido</label>
-                    <input type="text" id="form___name" name="nombre" class="input_padron" data-test="form___name" required placeholder="Nombre y apellido">
-                    <!-- email -->
-                    <label for="form___email">Ingresa tu correo electrónico</label>
-                    <input type="email" id="form___email" name="correo" class="input_padron" data-test="form___email" 
-                                required placeholder="email@dominio.com">
-                    <!-- asunto -->
-                    <label for="form___asunto">Selecciona el asunto</label>
-                    <select type="text" id="form___asunto" name="asunto" class="input_padron" data-test="form___asunto" required placeholder="Asunto">
-                        <option >Saludos</option>
-                        <option >Pregunta</option>
-                        <option >Propuesta</option>
-                        <option >Queja/Reclamo</option>
-                    </select>
-                    <!-- mensaje -->
-                    <label for="nav__message">Ingresa tu mensaje</label>
-                    <textarea cols="70" rows="10" id="nav__message" name="mensaje" class="input_padron" data-test="nav__message" placeholder="Mensaje"></textarea>
-                    <!-- boton enviar -->
-                    <input type="submit" value="Enviar" class="contact__button input_padron" data-test="form__submit__button">
-                </form>
-            </section>
-            
-            <aside class="contact__media__section">
-                <h2 class="media__title">Mis redes</h2>
-                <div class="media__links">
-                    <a href="https://www.linkedin.com/" class="media__link"  data-test="media__link__linkedin"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/" class="media__link"  data-test="media__link__github"><i class="fa-brands fa-square-github"></i></a>
-                    <a href="https://discord.com/" class="media__link"  data-test="media__link__discord"><i class="fa-brands fa-discord"></i></a>
-                </div>
-                <a href="#" class="contact__button" data-test="cv__download__button">Descarga mi CV</a>
-            </aside>
+            <div>
+                <section class="contact__form__section">  
+                    <form action="https://formsubmit.co/6e5ffd5b68862b826c31abde000b15fa" method="POST">      
+                        <!-- nombre -->
+                        <label for="form___name">Ingresa tu nombre y apellido</label>
+                        <input type="text" id="form___name" name="nombre" class="input_padron" data-test="form___name" required placeholder="Nombre y apellido">
+                        <!-- email -->
+                        <label for="form___email">Ingresa tu correo electrónico</label>
+                        <input type="email" id="form___email" name="correo" class="input_padron" data-test="form___email" 
+                                    required placeholder="email@dominio.com">
+                        <!-- asunto -->
+                        <label for="form___asunto">Selecciona el asunto</label>
+                        <select type="text" id="form___asunto" name="asunto" class="input_padron" data-test="form___asunto" required placeholder="Asunto">
+                            <option >Saludos</option>
+                            <option >Pregunta</option>
+                            <option >Propuesta</option>
+                            <option >Queja/Reclamo</option>
+                        </select>
+                        <!-- mensaje -->
+                        <label for="nav__message">Ingresa tu mensaje</label>
+                        <textarea cols="70" rows="10" id="nav__message" name="mensaje" class="input_padron" data-test="nav__message" placeholder="Mensaje"></textarea>
+                        <!-- boton enviar -->
+                        <input type="submit" value="Enviar" class="contact__button input_padron" data-test="form__submit__button">
+                    </form>
+                </section>
+                
+                <aside class="contact__media__section">
+                    <h2 class="media__title">Mis redes</h2>
+                    <div class="media__links">
+                        <a href="https://www.linkedin.com/in/mar%C3%ADadelmarserra/" Target="_blank" class="media__link"  data-test="media__link__linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/MDMSerra" class="media__link" Target="_blank" data-test="media__link__github"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://discord.com/users/489977706247749633" class="media__link" Target="_blank" data-test="media__link__discord"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1QvsjH6axMXv6mfGfBR5xOkQV_cGmQCwq/view?usp=sharing" Target="_blank" class="contact__button" data-test="cv__download__button">Descarga mi CV</a>
+                </aside>
+            </div>
         </div>
     </main>
     <!-- FIN DEL MAIN -->
