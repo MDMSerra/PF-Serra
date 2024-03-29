@@ -97,6 +97,7 @@ main .main__projects {
 }
 main .main__projects .card {
   max-width: 85%;
+  margin-top: 8rem;
 }
 main .main__projects .card .row .contenedor-image {
   margin-top: auto;
@@ -114,7 +115,7 @@ main .main__prints .print__img__container .img__print {
   padding: 1% 1% 0;
 }
 main .main__contact {
-  height: 90vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -123,12 +124,12 @@ main .main__contact .contact__title {
   font-size: 3rem;
   text-align: center;
 }
-main .main__contact div {
+main .main__contact .container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-main .main__contact div .contact__button {
+main .main__contact .container .contact__button {
   text-decoration: none;
   background-color: var(--color-fondo3);
   margin-top: 1rem;
@@ -137,28 +138,28 @@ main .main__contact div .contact__button {
   font-weight: bold;
   color: var(--color-fondo);
 }
-main .main__contact div .contact__button:hover {
+main .main__contact .container .contact__button:hover {
   background-color: var(--color-fondo2);
   color: var(--color-letras);
 }
-main .main__contact div .contact__form__section form {
+main .main__contact .container .contact__form__section form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 80%;
 }
-main .main__contact div .contact__form__section form .input_padron, main .main__contact div .contact__form__section form option {
+main .main__contact .container .contact__form__section form .input_padron, main .main__contact .container .contact__form__section form option {
   color: var(--color-fondo);
 }
-main .main__contact div .contact__media__section {
+main .main__contact .container .contact__media__section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .main__contact div .contact__media__section .media__title {
+main .main__contact .container .contact__media__section .media__title {
   font-size: 2.8rem;
 }
-main .main__contact div .contact__media__section .media__links {
+main .main__contact .container .contact__media__section .media__links {
   font-size: 3rem;
   gap: 2rem;
 }
@@ -168,6 +169,21 @@ main .main__contact div .contact__media__section .media__links {
   padding: 40px;
   font-size: 8px;
   text-align: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1000px) {
+  main .main__contact {
+    margin-top: 5rem;
+  }
+  main .main__contact .container {
+    min-height: 120vh;
+    flex-direction: column;
+  }
+  main .main__contact .container form {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
