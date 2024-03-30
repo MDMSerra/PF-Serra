@@ -1,0 +1,19 @@
+main{
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    main{
+        .main__contact{
+            margin-top: 5rem;
+            .container{
+                min-height: 120vh;
+                flex-direction: column;
+                form{
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+}

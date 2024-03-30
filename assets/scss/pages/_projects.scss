@@ -1,0 +1,16 @@
+.main__projects{
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .card{
+        max-width: 85%;
+        margin-top: 8rem;
+        .row{
+            .contenedor-image{
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+        }
+    }
+}

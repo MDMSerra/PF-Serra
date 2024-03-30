@@ -1,0 +1,10 @@
+.btn-light{
+    width: 100%;
+    background-color: var(--color-letras);
+    font-weight: bold;
+    &:hover{
+        background-color: var(--color-fondo2);
+        border: none;
+        color: var(--color-letras);
+    }
+}

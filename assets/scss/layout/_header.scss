@@ -1,0 +1,29 @@
+.navbar{
+    padding: 0;
+    background-color: var(--color-fondo);
+    .nav__container{
+        .navbar-brand{
+            background-color: var(--color-letras);
+            color: var(--color-fondo);
+            font-weight: bold;
+            line-height: 100px;
+            padding: 0 20px;
+            &:hover{
+                background-color: var(--color-fondo2);
+                color: var(--color-letras);
+            }
+        }
+        .nav-item{
+            .nav-link{
+                height: 100%;
+                line-height: 100px;
+                padding: 0 20px;
+                font-size: 1.3rem;
+                &:hover{
+                    background-color: var(--color-fondo2);
+                }
+            }
+            
+        }
+    }
+}
