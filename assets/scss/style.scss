@@ -68,10 +68,36 @@ main{
     }
     .main__index{
         height: 180vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        .main__index__tite{
+            height: 90vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.01)), url("../img/about/img5.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            .main__index__tite__text{
+                text-align: start;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+        .main__index__about{
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .main__index__about__text{
+                width: 75%;
+                h3{
+                    font-size: 1.3rem;
+                    margin-top: 15px;
+                }
+            }
+        }
+        
     }
     .main__education{
         margin-top: 6rem;
