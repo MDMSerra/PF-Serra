@@ -1,16 +1,16 @@
 .navbar{
     padding: 0;
-    background-color: var(--color-fondo);
+    background-color: $background-nav;
     .nav__container{
         .navbar-brand{
-            background-color: var(--color-letras);
-            color: var(--color-fondo);
+            background-color: map-get($colors, color-letras);
+            color: map-get($colors, color-fondo);
             font-weight: bold;
             line-height: 100px;
             padding: 0 20px;
             &:hover{
-                background-color: var(--color-fondo2);
-                color: var(--color-letras);
+                background-color: map-get($colors, color-fondo2);
+                color: map-get($colors, color-letras);
             }
         }
         .nav-item{
@@ -20,7 +20,7 @@
                 padding: 0 20px;
                 font-size: 1.3rem;
                 &:hover{
-                    background-color: var(--color-fondo2);
+                    background-color: map-get($colors, color-fondo2);
                 }
             }
             

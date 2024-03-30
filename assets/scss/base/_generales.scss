@@ -1,7 +1,7 @@
 *{
-    font-family: var(--fuente);
-    color: var(--color-letras);
+    font-family: $fuente;
+    color:  map-get($colors, color-letras);
 }
 body{
-    background-color: var(--bootstrap-dark);
+    background-color: $background-body;
 }

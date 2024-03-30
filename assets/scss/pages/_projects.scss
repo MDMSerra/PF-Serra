@@ -1,8 +1,6 @@
 .main__projects{
     min-height: 95vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    @include flex(flex, column, space-around, normal);
     .card{
         max-width: 85%;
         margin-top: 8rem;
