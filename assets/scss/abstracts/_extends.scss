@@ -1,4 +1,13 @@
-%flex-column{
-    display: flex;
-    flex-direction: column;
+%transition-scale{
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+%hover-button{
+    &:hover{
+        background-color: map-get($colors, color-fondo2);
+        color: map-get($colors, color-letras);
+    }
 }

@@ -8,8 +8,6 @@
     border-radius: 3px;
     font-weight: bold;
     color: map-get($colors, color-fondo);
-    &:hover{
-        background-color: map-get($colors, color-fondo2);
-        color: map-get($colors, color-letras);
-    }
+    @extend %transition-scale;
+    @extend %hover-button;
 }
