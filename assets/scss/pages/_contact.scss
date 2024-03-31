@@ -1,19 +1,20 @@
 .main__contact{
-    min-height: 100vh;
+    min-height: 90vh;
     @include flex(flex, column, space-evenly, center);
     .contact__title{
         font-size: 3rem;
         text-align: center;
     }
-    .container{
-        @include flex(flex, row, space-evenly, center);
+    .contenedor{
+        width: 80%;
+        @include flex(flex, row, space-around, center);
         .contact__form__section{
+            min-width: 40%;
             form{
                 .input_padron, option{
                     color: map-get($colors, color-fondo);
                 }
                 @include flex(flex, column, center, normal);
-                width: 80%;
             }
         }
         .contact__media__section{
@@ -28,3 +29,4 @@
         }
     }
 }
+

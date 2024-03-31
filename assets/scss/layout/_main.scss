@@ -6,12 +6,13 @@ main{
     main{
         .main__contact{
             margin-top: 5rem;
-            .container{
+            .contenedor{
                 min-height: 120vh;
                 flex-direction: column;
-                form{
-                    margin-left: auto;
-                    margin-right: auto;
+                align-items: center;
+                min-width: 80%;
+                .contact__form__section{
+                    min-width: 100%;
                 }
             }
         }
